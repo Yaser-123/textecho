@@ -1,6 +1,6 @@
 # Text-to-Speech Converter [TextEcho] 🎙️  
 
-**Live Link:** [WealthScope - Portfolio Analysis](https://textecho.vercel.app/)
+**Live Link:** [TextEcho - Portfolio Analysis](https://textecho.vercel.app/)
 
 Turn your written words into lifelike speech with this sleek and user-friendly text-to-speech application. Powered by the Web Speech API, it allows you to convert text into audio effortlessly, with customizable voices and seamless functionality.
 
@@ -16,14 +16,11 @@ Turn your written words into lifelike speech with this sleek and user-friendly t
 ---
 
 ## Demo 📸  
-### Home Screen:
-![Home Screen](https://via.placeholder.com/600x400.png?text=Demo+Image+1)
-
-### Playing Speech:
-![Playing Speech](https://via.placeholder.com/600x400.png?text=Demo+Image+2)
-
 ---
-
+![Dashboard Overview](Images/img-2.png)
+---
+![Dashboard Overview](Images/img-1.png)
+---
 ## How to Use 🛠️
 1. Clone the repository:  
    ```bash
