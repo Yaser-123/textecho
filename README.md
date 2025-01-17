@@ -17,9 +17,9 @@ Turn your written words into lifelike speech with this sleek and user-friendly t
 
 ## Demo 📸  
 ---
-![Dashboard Overview](Images/img-2.png)
----
 ![Dashboard Overview](Images/img-1.png)
+---
+![Dashboard Overview](Images/img-2.png)
 ---
 ## How to Use 🛠️
 1. Clone the repository:  
