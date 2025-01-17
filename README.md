@@ -21,6 +21,10 @@ Turn your written words into lifelike speech with this sleek and user-friendly t
 ---
 ![Dashboard Overview](Images/img-2.png)
 ---
+<p align="center">
+  <img src="Images/img-3.png"/>
+</p>
+---
 ## How to Use 🛠️
 1. Clone the repository:  
    ```bash
