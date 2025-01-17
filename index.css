@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-.hero{
+.hero {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #010758, #490d61);
@@ -14,64 +14,75 @@
     justify-content: center;
     flex-direction: column;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.hero h1{
-    font-size: 45px;
+.hero h1 {
+    font-size: 2.5rem;
     font-weight: 500;
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin-top: -20px;
+    margin-bottom: 30px;
 }
 
-.hero h1 span{
+.hero h1 span {
     color: #ff2963;
 }
 
-textarea{
-    width: 600px;
-    height: 250px;
+textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
     background: #403d84;
     color: #fff;
-    font-size: 15px;
+    font-size: 1rem;
     border: 0;
     outline: 0;
     padding: 20px;
     border-radius: 10px;
     resize: none;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-textarea::placeholder{
-    font-size: 16px;
+textarea::placeholder {
+    font-size: 1rem;
     color: #ddd;
 }
 
-.row{
-    width: 600px;
+.row {
+    width: 100%;
+    max-width: 600px;
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-button{
+button {
     background: #ff2963;
     color: #fff;
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 1rem;
+    padding: 10px 20px;
     border-radius: 35px;
     border: 0;
     outline: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
+    transition: background 0.3s ease;
 }
 
-button img{
+button:hover {
+    background: #e91e63;
+}
+
+button img {
     width: 16px;
     margin-right: 10px;
 }
 
-select{
+select {
     flex: 1;
     color: #fff;
     background: #403d84;
@@ -89,19 +100,57 @@ select{
 }
 
 #stop-button {
-    background: #ff5722; /* Different color for distinction */
+    background: #ff5722;
     color: #fff;
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 1rem;
+    padding: 10px 20px;
     border-radius: 35px;
     border: 0;
     outline: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
+    transition: background 0.3s ease;
+}
+
+#stop-button:hover {
+    background: #e64a19;
 }
 
 #stop-button img {
-    width: 22px;
+    width: 16px;
     margin-right: 10px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    button, 
+    select {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    button, 
+    select {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
 }
