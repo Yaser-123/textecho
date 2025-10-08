@@ -86,7 +86,7 @@ Icons from Flaticon.
 Feel free to reach out if you have questions or suggestions!
 - T. Mohamed Yaser 
 
-- GitHub: [YourGitHub](https://github.com/Yaser-123)
+- GitHub: [Yaser-123](https://github.com/Yaser-123)
 - Email: 1ammar.yaser@gmail.com
 - **Linkedin**: http://linkedin.com/in/mohamedyaser08/
 - Feel free to raise an [issue](https://github.com/Yaser-123/textecho/issues) for suggestions or queries.
